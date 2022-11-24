@@ -22,6 +22,7 @@
 		35E72B6A292ED7CE00A7EB15 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E72B69292ED7CE00A7EB15 /* HomeViewModel.swift */; };
 		35E72B71292EDC7300A7EB15 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E72B70292EDC7300A7EB15 /* SignUpView.swift */; };
 		35E72B73292EDC8500A7EB15 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E72B72292EDC8500A7EB15 /* SignUpViewModel.swift */; };
+		35E72B77292EFA7700A7EB15 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E72B76292EFA7700A7EB15 /* Gender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		35E72B69292ED7CE00A7EB15 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		35E72B70292EDC7300A7EB15 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		35E72B72292EDC8500A7EB15 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		35E72B76292EFA7700A7EB15 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		359384C729270EEB002938CD /* Habit */ = {
 			isa = PBXGroup;
 			children = (
+				35E72B74292EFA5800A7EB15 /* Common */,
 				35E72B6C292EDC4200A7EB15 /* SignUp */,
 				35E72B63292ED76D00A7EB15 /* Home */,
 				359384E0292C0FCA002938CD /* Signin */,
@@ -228,6 +231,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		35E72B74292EFA5800A7EB15 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				35E72B75292EFA6300A7EB15 /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		35E72B75292EFA6300A7EB15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35E72B76292EFA7700A7EB15 /* Gender.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -304,6 +323,7 @@
 				359384C929270EEB002938CD /* HabitApp.swift in Sources */,
 				359384E7292C1079002938CD /* SignInViewModel.swift in Sources */,
 				35E72B71292EDC7300A7EB15 /* SignUpView.swift in Sources */,
+				35E72B77292EFA7700A7EB15 /* Gender.swift in Sources */,
 				35E72B68292ED7B600A7EB15 /* HomeView.swift in Sources */,
 				35E72B62292ED72700A7EB15 /* SignInViewRouter.swift in Sources */,
 				359384E5292C1008002938CD /* SignInView.swift in Sources */,
