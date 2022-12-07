@@ -1,5 +1,5 @@
 //
-//  SignInViewRouter.swift
+//  SignUpViewRouter.swift
 //  Habit
 //
 //  Created by David Arcari on 23/11/22.
@@ -7,12 +7,9 @@
 
 import SwiftUI
 
-enum SignInViewRouter {
+enum SignUpViewRouter {
   static func makeHomeView() -> some View {
     let viewModel = HomeViewModel()
     return HomeView(viewModel: viewModel)
-  }
-  static func makeSignUpView() -> some View {
-    return SignUpView()
   }
 }

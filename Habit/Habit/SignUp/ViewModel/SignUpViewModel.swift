@@ -9,4 +9,12 @@ import SwiftUI
 
 class SignUpViewModel: ObservableObject {
   
+  @Published var uiState: SignInUIState = .nome
+  
+}
+
+extension SignUpViewModel {
+  func homeView() -> some View {
+    return SignUpViewRouter.makeHomeView()
+  }
 }
